@@ -64,6 +64,8 @@ app.get("/callback", async (req, res) => {
   }
 });
 
+app.use(express.static(path.join(__dirname, "public")));
+
 // Start server
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
