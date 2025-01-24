@@ -1,10 +1,10 @@
 {
   "name": "ids",
   "version": "1.0.0",
-  "description": "An IDS for the ZLC ARTCC",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/Merry-robot/ids/issues"
   },
-  "homepage": "https://github.com/Merry-robot/ids#readme"
+  "homepage": "https://github.com/Merry-robot/ids#readme",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
 }
